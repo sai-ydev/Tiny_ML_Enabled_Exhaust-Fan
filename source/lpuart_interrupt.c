@@ -174,7 +174,7 @@ int main(void)
 	/* Wait till finishes */
 	WizFi360_WaitReady(&WizFi360);
 
-	WizFi360_WifiConnect(&WizFi360, "YinYangHG", "Sour2530Vinegar");
+	WizFi360_WifiConnect(&WizFi360, "", "");
 
 	/* Wait till finish */
 	WizFi360_WaitReady(&WizFi360);
